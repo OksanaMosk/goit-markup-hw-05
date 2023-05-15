@@ -475,6 +475,35 @@ body {
   row-gap: 48px;
 }
 
+.img-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.every-service-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(77, 90, 229, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--light-color);
+  padding: 40px 32px 40px 32px;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  transform: translate(0%, 100%);
+  transition: transform 250ms linear;
+}
+
+.every-service:hover .every-service-overlay,
+.every-service:focus .every-service-overlay {
+  transform: translate(0, 0);
+}
+
 .first-service {
   flex-basis: calc((100% - 48px) / 3);
 }

@@ -607,18 +607,17 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 100%;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-window {
   position: absolute;
+  width: 408px;
+  height: 584px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 408px;
-  height: 584px;
-  background-color: #fcfcfc;
+  background: #fcfcfc;
 }

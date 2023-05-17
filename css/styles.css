@@ -37,11 +37,6 @@ img {
   display: block;
 }
 
-/* a { 
-  display: block;
-}
-*/
-
 .logo-header {
   display: block;
 }
@@ -716,6 +711,6 @@ body {
 .window-close-btn:hover,
 .window-close-btn:focus {
   background-color: var(--press-color);
-  fill: var(--secondary-color);
+  fill: #ffffff;
   border: none;
 }

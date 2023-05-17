@@ -705,12 +705,12 @@ body {
 
 .icon-close:hover,
 .icon-close:focus {
-  fill: var(--secondary-color);
+  fill: #ffffff;
 }
 
 .window-close-btn:hover,
 .window-close-btn:focus {
+  border: none;
   background-color: var(--press-color);
   fill: #ffffff;
-  border: none;
 }

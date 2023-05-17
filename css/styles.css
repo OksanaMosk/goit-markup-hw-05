@@ -174,6 +174,34 @@ body {
   background-color: var(--main-color);
 }
 
+.current-studio-item,
+.current-portfolio-item {
+  position: relative;
+  transition: var(--transition-dur-funk);
+}
+
+.current-studio::after {
+  display: block;
+  position: absolute;
+  width: 48px;
+  height: 4px;
+  content: "";
+  background-color: var(--press-color);
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.current-portfolio::after {
+  display: block;
+  position: absolute;
+  width: 66px;
+  height: 4px;
+  content: "";
+  background-color: var(--press-color);
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
 .hero {
   margin: 0 auto;
   padding: 188px 0 188px;
